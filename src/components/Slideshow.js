@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Styles/Slideshow.css';
-import AllOK from '../Resources/Photos/SlideShow/AllOk.png';
-import ChrisTrack from '../Resources/Photos/SlideShow/ChrisTrack.png';
-import OkAtNj from '../Resources/Photos/SlideShow/OkAtNJ.png';
+import '../styles/Slideshow.css';
+import AllOK from '../resources/photos/slideshow/AllOk.png';
+import ChrisTrack from '../resources/photos/slideshow/ChrisTrack.png';
+import OkAtNj from '../resources/photos/slideshow/OkAtNJ.png';
 import { Fade } from 'react-slideshow-image';
 
 const fadeImages = [
