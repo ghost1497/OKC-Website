@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import '../styles/App.css';
 
-class Button extends Component {
+class AdminButton extends Component {
     render() {
         return (
             <div>
                 <button className="admin-button">OK Nupe Entrance</button>
             </div>
         );
-    };
-};
-
-    export default Button;
+    }
+}
+export default AdminButton;

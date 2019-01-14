@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import logo from './resources/photos/logos/OVOKNUPES.png';
 import './styles/App.css';
-import Button from "./components/Button";
+import AdminButton from "./components/AdminButton";
 import Slideshow from "./components/Slideshow";
 import * as Scroll from "react-scroll";
 import Calendar from "./components/Calendar";
+import Photo from "./components/Photos";
+import Contact from "./components/Contact";
 
 class App extends Component {
     render() {
@@ -20,7 +22,7 @@ class App extends Component {
                         <Scroll.Link className="linkChild" to="contact" smooth={true} duration={500}>Contact us</Scroll.Link>
                     </ul>
                     <div className="header-right">
-                        <Button className="header-admin-button"/>
+                        <AdminButton className="header-admin-button"/>
                     </div>
                 </div>
                 <div>
@@ -92,60 +94,14 @@ class App extends Component {
                 <hr/>
                 <div id="gallery">
                     <h1>Gallery</h1>
+                        <Photo/>
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
 
                 <hr/>
                 <div id="contact">
-                    <h1>Contact Us</h1>
+                    <Contact/>
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+
             </div>
 
         );
