@@ -7,6 +7,7 @@ import * as Scroll from "react-scroll";
 import Calendar from "./components/Calendar";
 import Photo from "./components/Photos";
 import Contact from "./components/Contact";
+import BrotherOnYard from "./components/BrotherOnYard";
 
 class App extends Component {
     render() {
@@ -59,32 +60,8 @@ class App extends Component {
                 <hr/>
                 <div id="boty">
                     <h1>Brothers on the yard</h1>
+                    <BrotherOnYard/>
                 </div>
-
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <hr/>
                 <div id="eventCalendar">
                     <h1>Event calendar</h1>

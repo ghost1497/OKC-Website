@@ -1,7 +1,7 @@
 import request from 'superagent'
 
-const CALENDAR_ID = 'rfrankie04@gmail.com';
-const API_KEY = 'AIzaSyCEL0GitQCjK_ys3A3_SRk7Voz4lZJARg0';
+const CALENDAR_ID = '883132090743-lqpu346tg6c1dq429ckmt00tr6u351ir.apps.googleusercontent.com';
+const API_KEY = process.env.REACT_APP_CALENDAR_API_KEY;
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
 
 
