@@ -1,5 +1,5 @@
-import Gallery from '../../node_modules/react-photo-gallery';
-import Lightbox from '../../node_modules/react-images';
+import Gallery from 'react-photo-gallery';
+import Lightbox from 'react-images';
 import * as React from "react";
 import AllOK from '../resources/photos/slideshow/AllOk.png';
 import ChrisTrack from '../resources/photos/slideshow/ChrisTrack.png';

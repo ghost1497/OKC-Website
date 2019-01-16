@@ -1,12 +1,12 @@
 import React from 'react';
-import moment from '../../node_modules/moment';
+import moment from 'moment';
 import DataService from '../services/data/DataService';
 import '../styles/Calendar.css'
 
-import BigCalendar from '../../node_modules/react-big-calendar'
+import BigCalendar from 'react-big-calendar'
 const localizer = BigCalendar.momentLocalizer(moment);
 let dataService = new DataService();
-require('../../node_modules/react-big-calendar/lib/css/react-big-calendar.css')
+require('react-big-calendar/lib/css/react-big-calendar.css')
 
 
 class Calendar extends React.Component {
