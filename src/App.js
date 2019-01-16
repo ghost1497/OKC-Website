@@ -14,13 +14,16 @@ class App extends Component {
         return (
             <div>
                 <div className="header">
-                    <img className="header-logo" src={logo} width="300" height="200" alt={""}/>
+                    <img src={logo} width="300" height="200" alt={""}/>
                     <ul className="linkContainer">
-                        <Scroll.Link className="linkChild" to="history" smooth={true} duration={500}>Chapter History</Scroll.Link>
-                        <Scroll.Link className="linkChild" to="boty" smooth={true} duration={500}>Brothers on the yard</Scroll.Link>
-                        <Scroll.Link className="linkChild" to="eventCalendar" smooth={true} duration={500}>Event Calendar</Scroll.Link>
-                        <Scroll.Link className="linkChild" to="gallery" smooth={true} duration={500}>Gallery</Scroll.Link>
-                        <Scroll.Link className="linkChild" to="contact" smooth={true} duration={500}>Contact us</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="history" smooth={true} duration={500}>History</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="boty" smooth={true} duration={500}>On the
+                            yard</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="eventCalendar" smooth={true} duration={500}>Events</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="gallery" smooth={true}
+                                     duration={500}>Gallery</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="contact" smooth={true} duration={500}>Contact
+                            us</Scroll.Link>
                     </ul>
                     <div className="header-right">
                         <AdminButton className="header-admin-button"/>
@@ -59,19 +62,19 @@ class App extends Component {
                 <br/>
                 <hr/>
                 <div id="boty">
-                    <h1>Brothers on the yard</h1>
                     <BrotherOnYard/>
                 </div>
                 <hr/>
-                <div id="eventCalendar">
-                    <h1>Event calendar</h1>
-                <Calendar/>
+                <div id="eventCalendar" className="calendar">
+                    <h1 style={{color: "black"}}>Event Calendar</h1>
+                    <div>
+                        <Calendar/>
+                    </div>
                 </div>
-
                 <hr/>
                 <div id="gallery">
                     <h1>Gallery</h1>
-                        <Photo/>
+                    <Photo/>
                 </div>
 
                 <hr/>

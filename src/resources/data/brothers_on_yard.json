@@ -1,10 +1,44 @@
-[{
-  "img": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwie9fuuguzfAhXBJt8KHZnSABUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.androiddeft.com%2F2017%2F09%2F10%2Fjson-parsing-android-http%2F&psig=AOvVaw3jMjKszFLTrbi5NIKTDYOm&ust=1547512210501866",
-  "name": "Frankie Rodriguez",
-  "bio": "test"
-},
-{
-  "img": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwie9fuuguzfAhXBJt8KHZnSABUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.androiddeft.com%2F2017%2F09%2F10%2Fjson-parsing-android-http%2F&psig=AOvVaw3jMjKszFLTrbi5NIKTDYOm&ust=1547512210501866",
-  "name": "Frankie Rodriguez",
-  "bio": "test"
-}]
+[
+  {
+    "category": "SP18",
+    "title": "Usman Ologunebi",
+    "text": "Year: Junior \n\nMajor: Bioengineering \n\nHometown: Bloomfield, New Jersey \n\nPosition: Keeper of Records\n\nExtra-curricular activities: \nNational Society of Black Engineers (NSBE)\nMen of Color Alliance (MOCA)\nUniversity Productions – Music Committee \nBlack Student Union (BSU) \n",
+    "image": "http://drive.google.com/uc?export=view&id=1dIfbSTZuxotpXnFaOHPZ7keYAxAXgW4U"
+  },
+  {
+    "category": "SP18",
+    "title": "Max Louissaint",
+    "text": "I was born in Haiti but moved to Philadelphia around the age of 11 years old. I speak multiple languages; Haitian Creole, French, and English. I am a Mechanical Engineering major and a Computer Science minor at Lehigh University. My primary interest are automotive and robotics. I am a member of National Society of Black Engineers (NSBE), Formula SAE, African Caribbean Cultural Club, and Men of Color Alliance (MOCA). During my free time, I like to listen to music, watch movies, play soccer, or play basketball.",
+    "image": "http://drive.google.com/uc?export=view&id=1p6Yl56K7Oe2Bes3CRY9fUanDeWEeermw"
+  },
+  {
+    "category": "SP17",
+    "title": "Baru Roberson",
+    "text": "I am from New Jersey and I enjoy playing basketball and hanging with friends. I attend Moravian College and will graduate in May of 2019. My major is Health Science with a minor in Africana Studies. Some of the extracurriculars that I participate in are, Senior Resident Advisor, Black Student Union, Senior Gift Committee & President’s Council for Diversity & Inclusion just to name a few. I aspire to work in higher education one day, in order to help underrepresented college students achieve their professional goals.",
+    "image": "http://drive.google.com/uc?export=view&id=1tXxluSH412dg8r_ijQXxmF6kyJiLGIWY"
+  },
+  {
+    "category": "SP17",
+    "title": "Julius Verdio Wibisono",
+    "text": "Currently, I am an Undergraduate Student studying Finance & Management at Lehigh University. Throughout my college years and other than chapter involvement, I has been heavily involved with the Office of Multicultural Affairs, Men of Color Alliance, and the Cultural Greek Council. I am from Semarang, Indonesia and migrated to the United States when I was seven years old. After I graduates, I am seeking to be a financial consultant for a firm. My current interests include, Creative Cloud for Adobe, Fashion, and Investing. ",
+    "image": "http://drive.google.com/uc?export=view&id=13pO3IbCwlXZNb3M3erO9aGiHhoCTCRhl"
+  },
+  {
+    "category": "SP17",
+    "title": "Keyshawn griffith",
+    "text": "I am a Senior at Moravian College. I am a English Creative Writing Major and an Africana Studies Minor. In my time at Moravian, I has served as the founder of performance club Artists Unleashed, the Vice President of the literary magazine The Manuscript, and the President of The Black Student Union. I am always looking to help my fellow minority students on campus and serve as a mentor to younger students.  I hopes to one day be a published author that makes novels that young African American readers will enjoy reading one day.",
+    "image": "http://drive.google.com/uc?export=view&id=1UhQmX1h9eCI5Grvo1riv4VQqZoV48B9o"
+  },
+  {
+    "category": "SP17",
+    "title": "Donterrius Walker",
+    "text": "I am a senior from Lehigh University. I am majoring in Africana Studies, with a concentration in Hip-hop, and has three minors: Documentary storytelling, Marketing, & Music industry. In addition to this, I am currently the Secretary for Lehigh’s Black Student Union & Lehigh’s Cultural Greek Council and the President of Lehigh’s Men of Color Alliance organization. I am also the recipient of 2 Williams Prize Awards (DJ/Sound Board Op, Act Like You Know, 10-year Anniversary Show [Theatre - 2018] & Performance/Acting, Act Like You Know, 10-year Anniversary Show (Theatre - 2018).",
+    "image": "http://drive.google.com/uc?export=view&id=1o1-e9UH8u9fYKVUw_AKor8ZEU5QY7x9o"
+  },
+  {
+    "category": "SP17",
+    "title": "Chris Antoine",
+    "text": "I am Senior at Moravian College studying Economics with a concentration of Management in organizational leadership with a minor in Africana Studies and Peace Corps Certification. Im a Division 3 track and field conference champion in the 4x1 and 4x2 for two consecutive years besides athletics I am highly active in my community especially in the Black Student Union empowering young minds especially black and brown minds is always an aspiration for me. I am Moravian College's 2nd Newman Civic Fellow award recipient and a Resident Advisor as well as an AICUP advocate for the institution. Last but not least I am member the most noble klan Kappa Alpha Psi Fraternity, Incorporated and currently serving as the Keeper of Exchequer or more commonly known as treasurer. Future aspirations upon graduation is to take my degree into the armed forces as a Corporal Specialist in the Army and then ultimately receive my MBA.",
+    "image": "http://drive.google.com/uc?export=view&id=12SX1LySUW2AKHFYHeMqwhTRuQgNshByu"
+  }
+]

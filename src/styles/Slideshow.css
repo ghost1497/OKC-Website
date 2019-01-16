@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Sarpanch);
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Rajdhani|Sarpanch');
 
 
 h2{
     color: white;
-    font-family: 'Sarpanch', sans-serif;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .slide{

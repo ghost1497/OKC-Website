@@ -1,15 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Sarpanch);
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Rajdhani|Sarpanch');
 
 *{margin: 0px; padding: 0px}
 
 body{
   background:#000000;
-  font-family: 'Sarpanch', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 h1, button{
   color:#fff;
   text-align: center;
+  font-family: 'Major Mono Display', monospace;
   padding: 20px;
 }
 
@@ -25,7 +26,8 @@ hr {
 p{
   color:#fff;
   text-align: center;
-  padding-top: 500px;
+  padding-top: 40px;
+  font-family: 'Rajdhani', sans-serif;
   font-size: 10px;
 }
 
@@ -147,10 +149,12 @@ p{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-content: space-between;
 }
 
 .linkChild{
   flex-basis: auto;
-  align-self: auto;
+  align-self: flex-start;
+  margin-left: 17px;
+  font-family: 'Major Mono Display', monospace;
 }
