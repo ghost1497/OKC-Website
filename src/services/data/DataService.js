@@ -1,4 +1,4 @@
-import request from 'superagent'
+import request from '../../../node_modules/superagent'
 
 const CALENDAR_ID = 'qnvd4h9e45ofncs5fdrmq414po@group.calendar.google.com';
 const API_KEY = 'AIzaSyCEL0GitQCjK_ys3A3_SRk7Voz4lZJARg0';
