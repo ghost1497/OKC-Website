@@ -34,7 +34,7 @@ class App extends Component {
                 </div>
                 <hr/>
                 <div id="history">
-                    <h1>About Our Chapter</h1>
+                    <h1>Chapter History</h1>
                 </div>
                 <br/>
                 <br/>

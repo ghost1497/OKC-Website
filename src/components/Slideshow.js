@@ -29,7 +29,7 @@ const Slideshow = () => {
                 <div>
                     <img src={fadeImages[1]} alt={"img not available"}/>
                 </div>
-                <h2>SP17 Brother Chris Antoine</h2>
+                <h2>SP17 Brother Chris antoine</h2>
             </div>
             <div className="slide">
                 <div>
