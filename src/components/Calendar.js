@@ -1,5 +1,5 @@
 import React from 'react';
-import moment from 'moment';
+import moment from '../../node_modules/moment';
 import DataService from '../services/data/DataService';
 import '../styles/Calendar.css'
 
