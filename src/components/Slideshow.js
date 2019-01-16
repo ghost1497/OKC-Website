@@ -3,7 +3,7 @@ import '../styles/Slideshow.css';
 import AllOK from '../resources/photos/slideshow/AllOk.png';
 import ChrisTrack from '../resources/photos/slideshow/ChrisTrack.png';
 import OkAtNj from '../resources/photos/slideshow/OkAtNJ.png';
-import { Fade } from '../../node_modules/react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 
 const fadeImages = [
     AllOK,
