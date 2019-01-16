@@ -1,8 +1,9 @@
-// const path = require('path');
-// const SRC_DIR = path.join(__dirname, '/react-client/src');
-// const DIST_DIR = path.join(__dirname, '/react-client/dist');
-// const webpack = require('webpack');
-// module.exports = {
+const path = require('path');
+const SRC_DIR = path.join(__dirname, '/react-client/src');
+const DIST_DIR = path.join(__dirname, '/react-client/dist');
+const webpack = require('webpack');
+const CopyWebpackPlugin = require('CopyWebpackPlugin');
+module.exports = {
 //     entry: `${SRC_DIR}/index.jsx`,
 //     output: {
 //         path: DIST_DIR,
@@ -41,3 +42,11 @@
 //         })
 //     ]
 // };
+
+    plugins: [
+        new CopyWebpackPlugin([
+            // relative path is from src
+            {from: './static/favicon.ico'}, // <- your path to favicon
+        ])
+    ]
+};

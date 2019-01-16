@@ -7,14 +7,17 @@ import OkAtNj from '../resources/photos/slideshow/OkAtNJ.png';
 
 const PHOTO_SET = [
     { src: ChrisTrack, width: 4, height: 3 },
-    { src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799', width: 1, height: 1 },
-    { src: 'https://source.unsplash.com/qDkso9nvCg0/600x799', width: 3, height: 4 },
-    { src: 'https://source.unsplash.com/iecJiKe_RNg/600x799', width: 3, height: 4 },
-    { src: 'https://source.unsplash.com/epcsn8Ed8kY/600x799', width: 3, height: 4 },
-    { src: OkAtNj, width: 4, height: 3 },
-    { src: 'https://source.unsplash.com/zh7GEuORbUw/600x799', width: 3, height: 4 },
+    { src: 'http://drive.google.com/uc?export=view&id=13pO3IbCwlXZNb3M3erO9aGiHhoCTCRhl', width: 2.5, height: 2 },
+    { src: 'http://drive.google.com/uc?export=view&id=1tXxluSH412dg8r_ijQXxmF6kyJiLGIWY', width: 4, height: 3 },
+    { src: 'http://drive.google.com/uc?export=view&id=1OgfrdZ3KO_GtoDFOMmGTIfEz6CUuseM7', width: 3.5, height: 3 },
+    { src: 'http://drive.google.com/uc?export=view&id=1L898Lj9EOQ3AaeUXyEUAWBXiagjHbn5s', width: 4, height: 2.5 },
+    { src: OkAtNj, width: 4.5, height: 3 },
+    { src: 'http://drive.google.com/uc?export=view&id=1FJhuVVjiow1Y1WSmb7_7s2wjQkYcpjr_', width: 6, height: 3 },
     { src: AllOK, width: 4, height: 3 },
-    { src: 'https://source.unsplash.com/I1ASdgphUH4/800x599', width: 4, height: 3 }
+    { src: 'http://drive.google.com/uc?export=view&id=1BRhzjZRMB5QsjuiuZjek5rF8VFYeRSEO', width: 4, height: 3 },
+    { src: 'http://drive.google.com/uc?export=view&id=1Xe4GOd3fEXbE7xD-Nrosb9IVwrTgHLBJ', width: 3.5, height: 4.5 },
+    { src: 'http://drive.google.com/uc?export=view&id=1i06HMThyJsf9jjWWTlb4-Z5YkYv_1531', width: 3, height: 4 },
+    { src: 'http://drive.google.com/uc?export=view&id=1AYCacePBlZ5PJbFM3teXGPPE8xDOQpJE', width: 4, height: 3 }
 ];
 
 class Photo extends React.Component {
