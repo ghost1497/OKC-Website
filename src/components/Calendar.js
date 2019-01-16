@@ -6,7 +6,7 @@ import '../styles/Calendar.css'
 import BigCalendar from '../../node_modules/react-big-calendar'
 const localizer = BigCalendar.momentLocalizer(moment);
 let dataService = new DataService();
-require('react-big-calendar/lib/css/react-big-calendar.css')
+require('../../node_modules/react-big-calendar/lib/css/react-big-calendar.css')
 
 
 class Calendar extends React.Component {
