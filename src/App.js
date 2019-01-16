@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <div>
                 <div className="header">
-                    <img className="header-logo" src={logo} width="300" height="200" alt={""}/>
+                    <img src={logo} width="300" height="200" alt={""}/>
                     <ul className="linkContainer">
                         <Scroll.Link className="linkChild" to="history" smooth={true} duration={500}>Chapter History</Scroll.Link>
                         <Scroll.Link className="linkChild" to="boty" smooth={true} duration={500}>Brothers on the yard</Scroll.Link>
@@ -59,7 +59,6 @@ class App extends Component {
                 <br/>
                 <hr/>
                 <div id="boty">
-                    <h1>Brothers on the yard</h1>
                     <BrotherOnYard/>
                 </div>
                 <hr/>

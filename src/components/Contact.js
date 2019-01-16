@@ -20,7 +20,7 @@ class Contact extends React.Component {
                 },
                 email: {
                     value: '',
-                    placeholder: 'email',
+                    placeholder: 'Email',
                     valid: false,
                     touched: false,
                     validationRules: {
