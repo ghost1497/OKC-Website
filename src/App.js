@@ -8,6 +8,7 @@ import Calendar from "./components/Calendar";
 import Photo from "./components/Photos";
 import Contact from "./components/Contact";
 import BrotherOnYard from "./components/BrotherOnYard";
+import History from "./components/History";
 
 class App extends Component {
     render() {
@@ -34,32 +35,9 @@ class App extends Component {
                 </div>
                 <hr/>
                 <div id="history">
-                    <h1>Chapter History</h1>
+                    <History/>
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+
                 <hr/>
                 <div id="boty">
                     <BrotherOnYard/>
