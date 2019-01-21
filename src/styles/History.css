@@ -6,22 +6,30 @@
 }
 
 .kappaText {
-    font-size: 2em;
+    font-size: 35px;
+    font-size: 2.5vh;
     padding: 2em;
     margin-right: 3em;
     margin-left: 3em;
 }
 
 .okText {
-    font-size: 1.2em;
+    font-size: 20px;
+    font-size: 2.5vh;
     padding: 2em;
+    margin-right: 0.1em;
+    margin-left: 2em;
+    margin-top: 2em;
+    max-width: 60%;
+    word-wrap: break-word;
     float: left;
     width: 700px;
 }
 
 .okPic {
-    width: 600px;
-    height: 400px;
+    max-width: 40%;
+    width: auto;
+    height: auto;
 }
 
 .okContainer {
@@ -29,9 +37,28 @@
     margin-top: 15em;
 }
 
-.columnDiv{
-    column-count: 3;
-    column-gap: 30px;
-    column-rule: #ECEBF3;
-    column-rule-style: groove;
+.columnDiv {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.schoolLogo{
+    display: block;
+    margin: auto;
+    max-width: 30%;
+    width: auto;
+    height: auto;
+}
+
+.columnText{
+    font-size: 2vh;
 }
