@@ -51,14 +51,20 @@ class ChapterHistory extends Component {
                     <div>
                         <h1>Omicron Kappa Chapter</h1>
                     </div>
-                    <p className="okText">
-                        The Omicron Kappa Chapter of Kappa Alpha Psi Fraternity Inc. was chartered
-                        on May 18, 2001, though the Fraternity has existed on campus at Lehigh University since
-                        April 18, 1987 as an expansion colony. Omicron Kappa is a part of the Northeastern
-                        Province of the Fraternity, one of 12 regional umbrellas under which undergraduate
-                        and alumni chapters are sorted.
-                    </p>
-                    <img className="okPic" src={AllOK} alt="Omicron Kappa"/>
+                    <div className="okFlex">
+                        <div className="okFlexChild">
+                            <p className="okText">
+                                The Omicron Kappa Chapter of Kappa Alpha Psi Fraternity Inc. was chartered
+                                on May 18, 2001, though the Fraternity has existed on campus at Lehigh University since
+                                April 18, 1987 as an expansion colony. Omicron Kappa is a part of the Northeastern
+                                Province of the Fraternity, one of 12 regional umbrellas under which undergraduate
+                                and alumni chapters are sorted.
+                            </p>
+                        </div>
+                        <div className="okFlexChild">
+                            <img className="okPic" src={AllOK} alt="Omicron Kappa"/>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
@@ -72,7 +78,9 @@ class SchoolHistory extends Component {
             <div className="columnDiv">
                 <div id="lehigh" className="column">
                     <h1>Lehigh University</h1>
-                    <img className="schoolLogo" src="http://drive.google.com/uc?export=view&id=19e3-MQUxdAJvKD2qIQXB0C0uszeY3KXl" alt="Lehigh University"/>
+                    <img className="schoolLogo"
+                         src="http://drive.google.com/uc?export=view&id=19e3-MQUxdAJvKD2qIQXB0C0uszeY3KXl"
+                         alt="Lehigh University"/>
                     <p className="columnText">
                         The chapter’s presence at Lehigh began with the work of Dr. Wayne Bethea, ’91 ’94G ‘01G, Robert
                         Howard, and Terry Williams, ’89. The chapter’s founders had a desire to establish a new
@@ -98,15 +106,20 @@ class SchoolHistory extends Component {
                 </div>
                 <div id="ursinus" className="column">
                     <h1>Ursinus College</h1>
-                    <img className="schoolLogo" src="http://drive.google.com/uc?export=view&id=1e4vGy16aloL8audJfIaTzozM1CiVIQM2" alt="Ursinus College"/>
+                    <img className="schoolLogo"
+                         src="http://drive.google.com/uc?export=view&id=1e4vGy16aloL8audJfIaTzozM1CiVIQM2"
+                         alt="Ursinus College"/>
                     <p className="columnText">
 
                     </p>
                 </div>
                 <div id="moravian" className="column">
                     <h1>Moravian College</h1>
-                    <img className="schoolLogo" src="http://drive.google.com/uc?export=view&id=1xUNFF4P8JcVOVxngyWfXMTB0hxYvaJLZ" alt="Ursinus Moravian"/>
-                    <p className="columnText">The Omicron Kappa Chapter colony was founded at Moravian College in the spring semester of 2016.
+                    <img className="schoolLogo"
+                         src="http://drive.google.com/uc?export=view&id=1xUNFF4P8JcVOVxngyWfXMTB0hxYvaJLZ"
+                         alt="Ursinus Moravian"/>
+                    <p className="columnText">The Omicron Kappa Chapter colony was founded at Moravian College in the
+                        spring semester of 2016.
                         Kelly Petty Jr. hosted an informational in the years prior and by the end of the academic year
                         Kush and Vishu Solanki, Kahron Walker, Isaiah Jennings, Jim Maru alongside with Austin Price
                         from Lehigh University became the official founders of the colony. A year later, these
