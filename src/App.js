@@ -9,18 +9,31 @@ import Photo from "./components/Photos";
 import Contact from "./components/Contact";
 import BrotherOnYard from "./components/BrotherOnYard";
 import History from "./components/History";
+import BackToTopButton from "./components/BackToTopButton";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faChevronUp);
 
 class App extends Component {
+
+    topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     render() {
         return (
             <div>
                 <div className="header">
                     <img src={logo} width="300" height="200" alt={""}/>
                     <ul className="linkContainer">
-                        <Scroll.Link className="linkChild" to="history" smooth={true} duration={500}>History</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="history" smooth={true}
+                                     duration={500}>History</Scroll.Link>
                         <Scroll.Link className="linkChild" to="boty" smooth={true} duration={500}>On the
                             yard</Scroll.Link>
-                        <Scroll.Link className="linkChild" to="eventCalendar" smooth={true} duration={500}>Events</Scroll.Link>
+                        <Scroll.Link className="linkChild" to="eventCalendar" smooth={true}
+                                     duration={500}>Events</Scroll.Link>
                         <Scroll.Link className="linkChild" to="gallery" smooth={true}
                                      duration={500}>Gallery</Scroll.Link>
                         <Scroll.Link className="linkChild" to="contact" smooth={true} duration={500}>Contact
@@ -33,18 +46,20 @@ class App extends Component {
                 <div>
                     <Slideshow/>
                 </div>
+                <div>
+                    <BackToTopButton scrollStepInPx="40" delayInMs="10"/>
+                </div>
                 <hr/>
                 <div id="history">
                     <History/>
                 </div>
-
                 <hr/>
                 <div id="boty">
                     <BrotherOnYard/>
                 </div>
                 <hr/>
-                <div id="eventCalendar" className="calendar">
-                    <h1 style={{color: "black"}}>Event Calendar</h1>
+                <div id="eventCalendar">
+                    <h1>Event Calendar</h1>
                     <div>
                         <Calendar/>
                     </div>
@@ -54,12 +69,10 @@ class App extends Component {
                     <h1>Gallery</h1>
                     <Photo/>
                 </div>
-
                 <hr/>
                 <div id="contact">
                     <Contact/>
                 </div>
-
             </div>
 
         );

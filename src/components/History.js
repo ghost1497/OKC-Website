@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import AllOK from '../resources/photos/slideshow/AllOk.png';
+import Sheild from '../resources/photos/sheild.png';
 import '../styles/History.css';
 
 class History extends Component {
@@ -26,7 +27,7 @@ class KappaHistory extends Component {
         return (
             <div>
                 <img className="kappa"
-                     src="http://drive.google.com/uc?export=view&id=1x2ah5VS-cSg0JaZSYn3afNwposDW3Uxe" alt="Kappa"/>
+                     src={Sheild} alt="Coat of Arms"/>
                 <p className="kappaText">Kappa Alpha Psi Fraternity Inc (ΚΑΨ) is a collegiate Greek-letter fraternity
                     with a predominantly African-American
                     membership. Since the fraternity's founding on January 5, 1911 at Indiana University Bloomington,
