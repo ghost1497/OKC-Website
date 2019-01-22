@@ -1,0 +1,25 @@
+.scroll {
+    opacity: 0.5;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border-style: dot-dot-dash;
+    z-index: 999;
+}
+.scroll:hover {
+    opacity: 1;
+    background-color: #353535;
+}
+
+.arrow-up {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}
