@@ -13,6 +13,23 @@
     margin-left: 2em;
 }
 
+.linkButton{
+    display: block;
+    margin: auto;
+    width: 30%;
+    background-color: #dc0c23;
+    font-size: 20px;
+}
+
+.nepPic {
+    max-width: 50%;
+    min-width: 300px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 .okText {
     font-size: 20px;
     font-size: 3vh;

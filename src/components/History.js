@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import AllOK from '../resources/photos/slideshow/AllOk.png';
 import Sheild from '../resources/photos/sheild.png';
+import nepLogo from '../resources/photos/logos/KappaNeplogo_Converted.png';
 import '../styles/History.css';
 
 class History extends Component {
@@ -10,6 +11,9 @@ class History extends Component {
             <div>
                 <div>
                     <KappaHistory/>
+                </div>
+                <div>
+                    <ProvinceHistory/>
                 </div>
                 <div>
                     <ChapterHistory/>
@@ -28,7 +32,7 @@ class KappaHistory extends Component {
             <div>
                 <img className="kappa"
                      src={Sheild} alt="Coat of Arms"/>
-                <p className="kappaText">Kappa Alpha Psi Fraternity Inc (ΚΑΨ) is a collegiate Greek-letter fraternity
+                <p className="okText">Kappa Alpha Psi Fraternity Inc (ΚΑΨ) is a collegiate Greek-letter fraternity
                     with a predominantly African-American
                     membership. Since the fraternity's founding on January 5, 1911 at Indiana University Bloomington,
                     the fraternity has never limited membership based on color, creed or national origin. The fraternity
@@ -36,18 +40,71 @@ class KappaHistory extends Component {
                     States,
                     and international chapters in the United Kingdom, Germany, South Korea, Japan, United States Virgin
                     Islands, Nigeria, and South Africa.</p>
+                <button className="linkButton" onClick={this.openNationalSite}>Official Site of ΚΑΨ</button>
             </div>
         );
     }
 
+    openNationalSite() {
+        window.open('https://kap.site-ym.com/', '_blank');
+        return false;
+    }
+}
 
+class ProvinceHistory extends Component {
+    render() {
+        return (
+            <div>
+                <div className="okContainer">
+                    <div>
+                        <h1>Northeastern Province of ΚΑΨ</h1>
+                    </div>
+                    <div className="okFlex">
+                        <div className="okFlexChild">
+                            <p className="columnText">
+                                The designation of the province first came about in 1921 during the regime of then Grand
+                                Polemarch George W. David, the Third Grand Polemarch. At the tenth Annual Session of the
+                                Grand Chapter held in Philadelphia, the Grand body divided the organization into four
+                                parts known as regions. Initially they were numerically named. Each region consisted of
+                                the chapters in the states in which they were situated. As the fraternity grew, the name
+                                of the regions were changed to provinces.
+                                <br/>
+                                <br/>
+                                The growth of the fraternity also promoted the need for additional provinces to govern
+                                the chapters. In 1930, two new provinces were established, the North Eastern and South
+                                Western Provinces. The first Polemarch of the Northeastern Province was James E. Allen
+                                who was appointed by Grand Polemarch Archie A. Alexander.
+                                <br/>
+                                <br/>
+                                Today the Northeastern Province is comprised of over 40 Undergraduate and over 30 Alumni
+                                Chapters. It covers a geographical area spanning from the tip of New England in the
+                                north through Delaware in the south, and Pennsylvania in the west over to Germany and
+                                the United Kingdom. It is also the home of the International Headquarters of Kappa Alpha
+                                Psi Fraternity, Inc., which is located in Philadelphia, PA.
+
+
+                            </p>
+                        </div>
+                        <div className="okFlexChild">
+                            <img className="nepPic" src={nepLogo} alt="NEP Logo"/>
+                        </div>
+                    </div>
+                </div>
+                <button className="linkButton" onClick={this.openNepSite}>Official Site of the ne Province</button>
+            </div>
+        );
+    }
+
+    openNepSite() {
+        window.open('https://www.kapsinep.org/index.php', '_blank');
+        return false;
+    }
 }
 
 class ChapterHistory extends Component {
     render() {
         return (
             <div>
-
                 <div className="okContainer">
                     <div>
                         <h1>Omicron Kappa Chapter</h1>
