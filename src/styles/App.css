@@ -31,6 +31,14 @@ p{
   font-size: 10px;
 }
 
+.headerLogo{
+  height: 300px;
+  width: 430px;
+  display: block;
+  margin: auto;
+  margin-top: 17vh;
+}
+
 .main{
   width: 100%;
 }
@@ -50,8 +58,14 @@ p{
 
 .header{
   overflow: hidden;
-  width: inherit;
+  width: 100%;
   padding: 20px 10px;
+  background-image: url("../resources/photos/IMG_2987_dark25.jpg");
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header img{
@@ -117,6 +131,7 @@ p{
   font-size: 10px;
   font-weight: bold;
   overflow: hidden;
+  z-index: 9999999;
 }
 
 .admin-button:hover{
@@ -150,12 +165,14 @@ p{
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
+  justify-content: center;
 }
+
 
 .linkChild{
   flex-basis: auto;
   align-self: flex-start;
-  margin-left: 17px;
+  margin-left: 20px;
   word-spacing: -0.4em;
   font-family: 'Major Mono Display', monospace;
 }

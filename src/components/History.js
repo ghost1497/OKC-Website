@@ -61,6 +61,9 @@ class ProvinceHistory extends Component {
                     </div>
                     <div className="okFlex">
                         <div className="okFlexChild">
+                            <img className="nepPic" src={nepLogo} alt="NEP Logo"/>
+                        </div>
+                        <div className="okFlexChild">
                             <p className="columnText">
                                 The designation of the province first came about in 1921 during the regime of then Grand
                                 Polemarch George W. David, the Third Grand Polemarch. At the tenth Annual Session of the
@@ -84,9 +87,6 @@ class ProvinceHistory extends Component {
 
 
                             </p>
-                        </div>
-                        <div className="okFlexChild">
-                            <img className="nepPic" src={nepLogo} alt="NEP Logo"/>
                         </div>
                     </div>
                 </div>

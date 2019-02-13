@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import logo from './resources/photos/logos/OVOKNUPES.png';
 import './styles/App.css';
-import AdminButton from "./components/AdminButton";
-import Slideshow from "./components/Slideshow";
 import * as Scroll from "react-scroll";
 import Calendar from "./components/Calendar";
 import Photo from "./components/Photos";
@@ -12,21 +10,37 @@ import History from "./components/History";
 import BackToTopButton from "./components/BackToTopButton";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import AdminPopup from "./components/AdminConsolePopup";
 
 library.add(faChevronUp);
 
 class App extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            showPopup: false
+        };
+    }
 
     topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
 
+
+    togglePopup() {
+        this.setState({
+            showPopup: !this.state.showPopup
+        });
+    }
+
     render() {
+
         return (
             <div>
                 <div className="header">
-                    <img src={logo} width="300" height="200" alt={""}/>
+                    <img className="headerLogo" src={logo} width="300" height="200" alt={""}/>
                     <ul className="linkContainer">
                         <Scroll.Link className="linkChild" to="history" smooth={true}
                                      duration={500}>History</Scroll.Link>
@@ -40,12 +54,19 @@ class App extends Component {
                             us</Scroll.Link>
                     </ul>
                     <div className="header-right">
-                        <AdminButton className="header-admin-button"/>
+                        <div className="header-admin-button">
+                            <button className="admin-button" onClick={this.togglePopup.bind(this)}>OK Nupe Entrance</button>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <Slideshow/>
-                </div>
+                {this.state.showPopup ?
+                    <AdminPopup
+                        header='OK Nupe Login'
+                        body="Feature Coming Soon"
+                        closePopup={this.togglePopup.bind(this)}
+                    />
+                    : null
+                }
                 <div>
                     <BackToTopButton scrollStepInPx="40" delayInMs="10"/>
                 </div>

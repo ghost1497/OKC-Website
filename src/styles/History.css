@@ -1,5 +1,5 @@
 .kappa {
-    padding: 4em;
+    padding: 1em;
     display: block;
     margin: auto;
     width: 30%;
@@ -16,14 +16,14 @@
 .linkButton{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 40vw;
     background-color: #dc0c23;
     font-size: 20px;
 }
 
 .nepPic {
     max-width: 50%;
-    min-width: 300px;
+    min-width: 350px;
     width: auto;
     height: auto;
     display: block;
