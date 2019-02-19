@@ -5,7 +5,6 @@ import AllOK from '../resources/photos/slideshow/AllOk.png';
 import OkAtNj from '../resources/photos/slideshow/OkAtNJ.png';
 
 const PHOTO_SET = [
-    { src: 'http://drive.google.com/uc?export=view&id=1oTlD-h2ZFhDpqmpuoJlq-Gn7E-rNhD1I', width: 3, height: 2 },
     { src: 'http://drive.google.com/uc?export=view&id=13pO3IbCwlXZNb3M3erO9aGiHhoCTCRhl', width: 2.5, height: 2 },
     { src: 'http://drive.google.com/uc?export=view&id=1tXxluSH412dg8r_ijQXxmF6kyJiLGIWY', width: 4, height: 3 },
     { src: 'http://drive.google.com/uc?export=view&id=1OgfrdZ3KO_GtoDFOMmGTIfEz6CUuseM7', width: 3.5, height: 3 },
