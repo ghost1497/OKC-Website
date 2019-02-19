@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Contact.css';
 import {validate} from "../services/validation/InputVal";
 
-
 class Contact extends React.Component {
     constructor() {
         super();
@@ -78,7 +77,6 @@ class Contact extends React.Component {
         console.log(formData);
     };
 
-
     render() {
         return (
             <div className="contact-container">
@@ -124,3 +122,4 @@ class Contact extends React.Component {
     }
 }
 export default Contact;
+

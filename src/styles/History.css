@@ -1,8 +1,9 @@
 .kappa {
-    padding: 1em;
+    padding: 2em;
     display: block;
     margin: auto;
-    width: 30%;
+    margin-top: 10px;
+    width: 60%;
 }
 
 .kappaText {
@@ -69,6 +70,7 @@
     display: flex;
     overflow: hidden;
     flex-wrap: wrap;
+    margin: 1em;
 }
 
 .column {
@@ -88,4 +90,11 @@
 .columnText{
     font-size: 20px;
     font-size: 2vh;
+}
+
+.nepText {
+    font-size: 10px;
+    font-size: 2vh;
+    margin-top: 2em;
+    padding: 2em;
 }

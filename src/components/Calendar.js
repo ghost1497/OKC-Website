@@ -11,10 +11,11 @@ require('react-big-calendar/lib/css/react-big-calendar.css')
 
 class Calendar extends React.Component {
     constructor () {
-        super()
+        super();
         this.state = {
             events: []
-        }
+        };
+        this.componentDidMount();
     }
     componentDidMount () {
         dataService.getEvents((events) => {
@@ -27,11 +28,12 @@ class Calendar extends React.Component {
             // React Components in JSX look like HTML tags
             <div className="calendar">
                 <BigCalendar
-                    style={{height: '420px'}}
-                    events={[this.state.events]}
+                    style={{height: '600px'}}
+                    events={this.state.events}
                     selectable
                     localizer = {localizer}
                     defaultDate={new Date()}
+                    defaultView={'agenda'}
 
                 />
             </div>

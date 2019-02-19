@@ -7,12 +7,12 @@ let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/event
 
 class DataService {
 
-    getEvents(callback){
+    getEvents(callback) {
         request
             .get(url)
             .end((err, resp) => {
                 if (!err) {
-                    const events = []
+                    const events = [];
                     // eslint-disable-next-line
                     JSON.parse(resp.text).items.map((event) => {
                         events.push({
@@ -23,8 +23,8 @@ class DataService {
                     });
                     callback(events)
                 }
-            })
+            });
     }
-};
+}
 
 export default DataService;
