@@ -120,7 +120,7 @@ class NacHistory extends Component {
                     <div className="okFlex">
                         <div className="okFlexChild">
                             <p className="okText">
-                                The Omicron Kappa Chapter of Kappa Alpha Psi is charted under the Norristown Alumni
+                                The Omicron Kappa Chapter of Kappa Alpha Psi is chartered under the Norristown Alumni
                                 Chapter. NAC was chartered on January 26, 1986 and serves the Municipality of
                                 Norristown,
                                 Pennsylvania the County Seat of Montgomery County. NAC services the community through
@@ -134,7 +134,7 @@ class NacHistory extends Component {
                         </div>
                     </div>
                 </div>
-                <button className="linkButton" onClick={this.openNacSite}>Official Site of NAC</button>
+                <button className="linkButton" onClick={this.openNacSite}>Official Site of NaC</button>
             </div>
         );
     }
