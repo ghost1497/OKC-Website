@@ -58,8 +58,7 @@ p{
 
 .header{
   overflow: hidden;
-  width: 100%;
-  padding: 20px 10px;
+  width: 100vw;
   background-image: url("../resources/photos/kellznpaul_dark30.jpg");
   height: 100vh;
   background-position: center; /* Center the image */
@@ -148,7 +147,7 @@ p{
   padding-top: 300%;
   padding-left: 350%;
   margin-left: -20px !important;
-  margin-top: -120%;
+  margin-top: 0;
   opacity: 0;
   transition: all 0.8s
 }

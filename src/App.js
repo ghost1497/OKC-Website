@@ -40,7 +40,7 @@ class App extends Component {
         return (
             <div>
                 <div className="header">
-                    <img className="headerLogo" src={logo} width="300" height="200" alt={""}/>
+                    <img className="headerLogo" src={logo} width="300" height="200" alt="OVOK Nupes Logo"/>
                     <ul className="linkContainer">
                         <Scroll.Link className="linkChild" to="history" smooth={true}
                                      duration={500}>History</Scroll.Link>
