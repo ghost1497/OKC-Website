@@ -1,9 +1,15 @@
 import React, {Component} from 'react';
-import AllOK from '../resources/photos/slideshow/AllOk.png';
-import Sheild from '../resources/photos/logos/sheild_transparent.png';
-import OKNAC from '../resources/photos/OKNAC.jpg';
-import nepLogo from '../resources/photos/logos/KappaNeplogo_Converted.png';
 import '../styles/History.css';
+
+// Logo & photo imports
+import AllOK from '../resources/photos/slideshow/AllOk.png';
+let SHEILD = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fsheild_transparent.png?alt=media&token=be779524-7ddb-40ac-8d80-47b10ecc6b4e';
+let OKNAC = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Gallery%20Photos%2FOKNAC.jpg?alt=media&token=344c88bb-e1b3-4d4f-a5a2-c14770a21930';
+let NEPLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2FKappaNeplogo_Converted.png?alt=media&token=49624bf3-8530-4bab-bb9f-9ab5de380bca';
+let UCLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fuc-shield.png?alt=media&token=175e87aa-17af-4052-b78a-6e36a554698b';
+let LEHIGHLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2FLUwithShield-CMYK.svg.png?alt=media&token=fabf3a4e-1208-4c0d-a8bf-814278c7940c';
+let MORAVIANLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fmoravian-logo.png?alt=media&token=2b226cb0-ea7d-40d1-8041-2ecedbb18401';
+
 
 class History extends Component {
 
@@ -35,7 +41,7 @@ class KappaHistory extends Component {
         return (
             <div>
                 <img className="kappa"
-                     src={Sheild} alt="Coat of Arms"/>
+                     src={SHEILD} alt="Coat of Arms"/>
                 <p className="okText">Kappa Alpha Psi Fraternity Inc (ΚΑΨ) is a collegiate Greek-letter fraternity
                     with a predominantly African-American
                     membership. Since the fraternity's founding on January 5, 1911 at Indiana University Bloomington,
@@ -65,11 +71,14 @@ class ProvinceHistory extends Component {
                     </div>
                     <div className="okFlex">
                         <div className="okFlexChild">
-                            <img className="nepPic" src={nepLogo} alt="NEP Logo"/>
+                            <img className="nepPic" src={NEPLOGO} alt="NEP Logo"/>
                         </div>
                         <div className="okFlexChild">
                             <p className="nepText">
-                                The designation of the province first came about in 1921 during the regime of then Grand
+                                The Omicron Kappa Chapter is a part of the Northeastern Province of the Fraternity, one
+                                of 12
+                                regional umbrellas under which undergraduate and alumni chapters are sorted. The
+                                designation of the province first came about in 1921 during the regime of then Grand
                                 Polemarch George W. David and the Third Grand Polemarch. At the Tenth Annual Session of
                                 the Grand Chapter held in Philadelphia, the Grand body divided the organization into
                                 four parts known as regions. Initially, they were numerically named. Each region
@@ -157,10 +166,12 @@ class ChapterHistory extends Component {
                         <div className="okFlexChild">
                             <p className="okText">
                                 The Omicron Kappa Chapter of Kappa Alpha Psi Fraternity Inc. was chartered
-                                on May 18, 2001, though the Fraternity has existed on campus at Lehigh University since
-                                April 18, 1987 as an expansion colony. Omicron Kappa is a part of the Northeastern
-                                Province of the Fraternity, one of 12 regional umbrellas under which undergraduate
-                                and alumni chapters are sorted.
+                                on May 18, 2001 at Lehigh University, though the Fraternity has existed on campus at
+                                Lehigh University since
+                                April 18, 1987 as an expansion colony. Since then, the chapter has expanded to Ursinus
+                                College (2002) and Moravian College (2016) to extend the good work of Kappa and give
+                                other young men
+                                of color the opportunity to be apart of that work.
                             </p>
                         </div>
                         <div className="okFlexChild">
@@ -181,11 +192,13 @@ class SchoolHistory extends Component {
                 <div id="lehigh" className="column">
                     <h1>Lehigh University</h1>
                     <img className="schoolLogo"
-                         src="http://drive.google.com/uc?export=view&id=19e3-MQUxdAJvKD2qIQXB0C0uszeY3KXl"
+                         src={LEHIGHLOGO}
                          alt="Lehigh University"/>
                     <p className="columnText">
                         The chapter’s presence at Lehigh began with the work of Dr. Wayne Bethea, ’91 ’94G ‘01G, Robert
-                        Howard, and Terry Williams, ’89. The chapter’s charter members had the desire to establish a new
+                        Howard, and Terry Williams, ’89. In the spring of 2001, the Omicron Kappa Chapter was chartered
+                        under brothers Robert Daye, Corey Harrison, Louis Brown, Avon Mack Jr, and Brant Hall. The chapter’s
+                        charter members had the desire to establish a new
                         values-based organization on campus and pursued membership in what they viewed to be the most
                         prestigious historically black Greek-letter organization.
                         <br/>
@@ -209,24 +222,47 @@ class SchoolHistory extends Component {
                 <div id="ursinus" className="column">
                     <h1>Ursinus College</h1>
                     <img className="schoolLogo"
-                         src="http://drive.google.com/uc?export=view&id=1e4vGy16aloL8audJfIaTzozM1CiVIQM2"
+                         src={UCLOGO}
                          alt="Ursinus College"/>
                     <p className="columnText">
-
+                        A colony extension of the Omicron Kappa Chapter of Kappa Alpha Psi Fraternity Incorporated was
+                        chartered at Ursinus college on February 17, 2002 on the campus of Ursinus College by Big
+                        Brother Theodore Smith of the Alpha Iota chapter of Kappa Alpha Psi Fraternity Incorporated. He
+                        is accredited with the formation of the chapter at Ursinus college.
+                        <br/>
+                        <br/>
+                        The reign of the Omicron Kappa Chapter at Ursinus college started with four young men and a
+                        dream. Those young men were Kevin Hankins Jr 02’, Brandon
+                        Brooks 03’, Jarod Devine and Harry Micheal 03’. These men sought to bring a
+                        strong bond of fraternity to a small liberal arts campus. A passionate brother from the Alpha
+                        Iota chapter(Morgan state) Theodore Smith took a chance on the dream and sponsored these you men
+                        on their long journey into Honorable achievement.
+                        <br/>
+                        <br/>
+                        Being the first first culturally based Greek letter chapter in Ursinus College history,
+                        these four young men sparked the foundation for a strong multicultural bond within the Ursinus
+                        community. The black student Union, S.U.N (Sankofa Umoja Nia), was greatly influenced by the
+                        service and positive image these men brought. This was all while inspiring another culturally
+                        based Greek
+                        organization, Sigma Gamma Rho Sorority inc, to join the Ursinus Community.
                     </p>
                 </div>
                 <div id="moravian" className="column">
                     <h1>Moravian College</h1>
                     <img className="schoolLogo"
-                         src="http://drive.google.com/uc?export=view&id=1xUNFF4P8JcVOVxngyWfXMTB0hxYvaJLZ"
+                         src={MORAVIANLOGO}
                          alt="Ursinus Moravian"/>
                     <p className="columnText">
-                        The Omicron Kappa Chapter colony was extended to Moravian College in the
-                        spring semester of 2016. Kelly Petty Jr. hosted an informational in the years prior and by the
+                        <br/>
+                        <br/>
+                        The Omicron Kappa Chapter extended as a colony to Moravian College in the
+                        spring semester of 2016. Kelly Petty Jr hosted informationals in the years prior and by the
                         end of the academic year Kush and Vishu Solanki, Kahron Walker, Isaiah Jennings, Jim Maru
-                        alongside with Austin Price from Lehigh University became the first line of the Moravian colony
-                        of the Omicron Kappa Chapter. A year later, these distinguished men introduced Baru Roberson,
-                        Christopher Antoine and Keyshawn Griffith, along with their brothers from Lehigh, Julius
+                        alongside with Austin Price from Lehigh University became the first line at Moravian College
+                        to be initiated through the Omicron Kappa Chapter. A year later, these distinguished men
+                        introduced Baru Roberson,
+                        Christopher Antoine and Keyshawn Griffith, along with their brothers from Lehigh University,
+                        Julius
                         Wibisono, Frankie Rodriguez, Donterrius Walker and Tyler James Stubbs to the bond.
                     </p>
                 </div>
