@@ -251,7 +251,7 @@ class SchoolHistory extends Component {
                     <h1>Moravian College</h1>
                     <img className="schoolLogo"
                          src={MORAVIANLOGO}
-                         alt="Ursinus Moravian"/>
+                         alt="Moravian College"/>
                     <p className="columnText">
                         <br/>
                         <br/>
