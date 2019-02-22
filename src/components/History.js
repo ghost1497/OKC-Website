@@ -3,12 +3,12 @@ import '../styles/History.css';
 
 // Logo & photo imports
 import AllOK from '../resources/photos/slideshow/AllOk.png';
-let SHEILD = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fsheild_transparent.png?alt=media&token=be779524-7ddb-40ac-8d80-47b10ecc6b4e';
-let OKNAC = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Gallery%20Photos%2FOKNAC.jpg?alt=media&token=344c88bb-e1b3-4d4f-a5a2-c14770a21930';
-let NEPLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2FKappaNeplogo_Converted.png?alt=media&token=49624bf3-8530-4bab-bb9f-9ab5de380bca';
-let UCLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fuc-shield.png?alt=media&token=175e87aa-17af-4052-b78a-6e36a554698b';
-let LEHIGHLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2FLUwithShield-CMYK.svg.png?alt=media&token=fabf3a4e-1208-4c0d-a8bf-814278c7940c';
-let MORAVIANLOGO = 'https://firebasestorage.googleapis.com/v0/b/ok-website-228515.appspot.com/o/Logos%2Fmoravian-logo.png?alt=media&token=2b226cb0-ea7d-40d1-8041-2ecedbb18401';
+let SHEILD = 'https://i.imgur.com/LDcZJNO.png';
+let OKNAC = 'https://i.imgur.com/G2YZcWp.jpg';
+let NEPLOGO = 'https://i.imgur.com/f8gWSi6.png';
+let UCLOGO = 'https://i.imgur.com/jCHRczt.png';
+let LEHIGHLOGO = 'https://i.imgur.com/Dej4wyz.png';
+let MORAVIANLOGO = 'https://i.imgur.com/anyDvN0.png';
 
 
 class History extends Component {
