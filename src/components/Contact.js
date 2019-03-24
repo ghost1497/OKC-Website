@@ -73,7 +73,7 @@ class Contact extends React.Component {
 
     formSubmitHandler = (event) => {
         event.preventDefault();
-        alert('Your contact form has been submitted. A OK brother will be looking at your response shortly!');
+        alert('Your contact form has been submitted. An OK brother will be looking at your response shortly!');
         const formData = {};
         const {
             REACT_APP_EMAILJS_TEMPLATEID: templateId,
