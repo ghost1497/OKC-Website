@@ -85,7 +85,12 @@ form.material {
     transition: all 0.25s ease-in-out;
 }
 
-.buttons button.submit {
+.buttons button.submitted:disabled {
+    float: bottom;
+    background: #ff9ea5;
+}
+
+.buttons button.submitted {
     float: bottom;
     background: #dc0c23;
     border-bottom-right-radius: 8px;
@@ -93,7 +98,7 @@ form.material {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.buttons button.submit:hover {
+.buttons button.submitted:hover {
     float: bottom;
     background: #ff9ea5;
 }
