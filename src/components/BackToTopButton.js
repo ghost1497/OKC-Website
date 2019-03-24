@@ -19,7 +19,6 @@ class BackToTopButton extends Component {
 
     handleScroll = () => {
         if(window.pageYOffset > 1000) {
-            console.log('scrolled');
             this.setState({
                 showBanner: true
             });
@@ -28,7 +27,7 @@ class BackToTopButton extends Component {
                 showBanner: false
             });
         }
-    }
+    };
 
     scrollStep() {
         if (window.pageYOffset === 0) {

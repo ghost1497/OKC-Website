@@ -3,6 +3,7 @@ import '../styles/History.css';
 
 // Logo & photo imports
 import AllOK from '../resources/photos/slideshow/AllOk.png';
+
 let SHEILD = 'https://i.imgur.com/LDcZJNO.png';
 let OKNAC = 'https://i.imgur.com/G2YZcWp.jpg';
 let NEPLOGO = 'https://i.imgur.com/f8gWSi6.png';
@@ -197,7 +198,8 @@ class SchoolHistory extends Component {
                     <p className="columnText">
                         The chapter’s presence at Lehigh began with the work of Dr. Wayne Bethea, ’91 ’94G ‘01G, Robert
                         Howard, and Terry Williams, ’89. In the spring of 2001, the Omicron Kappa Chapter was chartered
-                        under brothers Robert Daye, Corey Harrison, Louis Brown, Avon Mack Jr, and Brant Hall. The chapter’s
+                        under brothers Robert Daye, Corey Harrison, Louis Brown, Avon Mack Jr, and Brant Hall. The
+                        chapter’s
                         charter members had the desire to establish a new
                         values-based organization on campus and pursued membership in what they viewed to be the most
                         prestigious historically black Greek-letter organization.
@@ -226,17 +228,18 @@ class SchoolHistory extends Component {
                          alt="Ursinus College"/>
                     <p className="columnText">
                         A colony extension of the Omicron Kappa Chapter of Kappa Alpha Psi Fraternity Incorporated was
-                        chartered at Ursinus college on February 17, 2002 on the campus of Ursinus College by Big
-                        Brother Theodore Smith of the Alpha Iota chapter of Kappa Alpha Psi Fraternity Incorporated. He
-                        is accredited with the formation of the chapter at Ursinus college.
+                        chartered at Ursinus college on February 17, 2002 on the campus of Ursinus College.
                         <br/>
                         <br/>
                         The reign of the Omicron Kappa Chapter at Ursinus college started with four young men and a
-                        dream. Those young men were Kevin Hankins Jr 02’, Brandon
-                        Brooks 03’, Jarod Devine and Harry Micheal 03’. These men sought to bring a
+                        dream. Those young men were Kevin Hankins Jr, Brandon
+                        Brooks, Jarod Devine and Harry Micheal. These men sought to bring a
                         strong bond of fraternity to a small liberal arts campus. A passionate brother from the Alpha
-                        Iota chapter(Morgan state) Theodore Smith took a chance on the dream and sponsored these you men
-                        on their long journey into Honorable achievement.
+                        Iota chapter(Morgan state), Theodore Smith, took a chance on the dream and sponsored these you
+                        men
+                        on their long journey into Honorable achievement. He
+                        is accredited with the formation of the chapter at Ursinus college and is also a member of the
+                        Norristown Alumni Chapter of Kappa Alpha Psi Fraternity inc.
                         <br/>
                         <br/>
                         Being the first first culturally based Greek letter chapter in Ursinus College history,

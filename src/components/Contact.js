@@ -1,39 +1,42 @@
 import React from 'react';
 import '../styles/Contact.css';
 import {validate} from "../services/validation/InputVal";
+import * as emailjs from 'emailjs-com'
 
 class Contact extends React.Component {
+    static initState = {
+        formControls: {
+            name: {
+                value: '',
+                placeholder: 'Name',
+                valid: false,
+                touched: false,
+                validationRules: {
+                    minLength: 3,
+                    isRequired: true
+                }
+            },
+            email: {
+                value: '',
+                placeholder: 'Email',
+                valid: false,
+                touched: false,
+                validationRules: {
+                    minLength: 3,
+                    isEmail: true,
+                    isRequired: true
+                }
+            },
+            message: {
+                value: '',
+                placeholder: 'Write a message to us'
+            }
+        }
+    };
+
     constructor() {
         super();
-        this.state = {
-            formControls: {
-                name: {
-                    value: '',
-                    placeholder: 'Name',
-                    valid: false,
-                    touched: false,
-                    validationRules: {
-                        minLength: 3,
-                        isRequired: true
-                    }
-                },
-                email: {
-                    value: '',
-                    placeholder: 'Email',
-                    valid: false,
-                    touched: false,
-                    validationRules: {
-                        minLength: 3,
-                        isEmail: true,
-                        isRequired: true
-                    }
-                },
-                message: {
-                    value: '',
-                    placeholder: 'Write a message to us'
-                }
-            }
-        };
+        this.state = Contact.initState;
 
     }
 
@@ -68,14 +71,35 @@ class Contact extends React.Component {
 
     };
 
-    formSubmitHandler = () => {
+    formSubmitHandler = (event) => {
+        event.preventDefault();
+        alert('Your contact form has been submitted. A OK brother will be looking at your response shortly!');
         const formData = {};
+        const {
+            REACT_APP_EMAILJS_TEMPLATEID: templateId,
+            REACT_APP_EMAILJS_USERID: userId
+        } = process.env;
+
+
         for (let formElementId in this.state.formControls) {
             formData[formElementId] = this.state.formControls[formElementId].value;
         }
 
         console.log(formData);
+
+        emailjs.send('gmail', templateId, formData, userId)
+            .then(res => {
+                console.log(res);
+            })
+            .catch(err => console.error('Failed to send feedback. Error: ', err))
+
+        this.resetStateValues();
     };
+
+    resetStateValues() {
+        this.setState(Contact.initState);
+    }
+
 
     render() {
         return (
@@ -113,7 +137,9 @@ class Contact extends React.Component {
                             />
                         </div>
                         <div className="buttons">
-                            <button className="submit" onClick={this.formSubmitHandler} disabled={!(this.state.formControls.email.valid && this.state.formControls.name.valid)}>Submit</button>
+                            <button className="submitted" onClick={this.formSubmitHandler}
+                                    disabled={!(this.state.formControls.email.valid && this.state.formControls.name.valid)}>Submit
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -121,5 +147,6 @@ class Contact extends React.Component {
         );
     }
 }
+
 export default Contact;
 
