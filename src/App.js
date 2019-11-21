@@ -82,7 +82,7 @@ class App extends Component {
                 <div id="eventCalendar">
                     <h1>Event Calendar</h1>
                     <div>
-                        <Calendar/>
+                        <Calendar />
                     </div>
                 </div>
                 <hr/>
